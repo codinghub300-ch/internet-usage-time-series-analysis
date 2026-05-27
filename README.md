@@ -154,22 +154,19 @@ Generated:
 - Residual diagnostics confirmed acceptable model performance.
 - Low MSE indicated strong predictive accuracy.
 
----
-
-## 📂 Project Structure
-
-internet-usage-time-series-analysis/
-│
-├── part1_data_visualization.py
-├── part2_time_series_analysis.py
-├── internet_usage_dataset.csv
-├── Part_2_TSA.xlsx
-├── project_report.pdf
-└── README.md
 
 ---
 
-## ▶️ How to Run
+## Project Goals
+. Visualize global internet adoption trends
+. Understand geographic digital disparities
+. Analyze autocorrelation in financial data
+. Build forecasting models using ARIMA
+. Practice statistical diagnostics and visualization
+
+---
+
+##  How to Run
 
 ### 1. Install Required Libraries
 
