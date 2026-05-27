@@ -1,2 +1,177 @@
-# internet-usage-time-series-analysis
-A data analysis project combining interactive choropleth map visualization and time series analysis using Python. The project explores global internet usage trends and analyzes weekly loan applications using ARIMA modeling and statistical diagnostics.
+# Internet Usage Choropleth Map & Time Series Analysis 
+
+A Python-based data analysis project that combines interactive global data visualization with time series forecasting techniques.
+
+The project is divided into two main parts:
+1. Internet Usage Choropleth Map Visualization
+2. Time Series Analysis of Weekly Loan Applications
+
+---
+
+##  Project Overview
+
+This project demonstrates how Python can be used for:
+- Interactive Data Visualization
+- Geographic Analysis
+- Time Series Modeling
+- Statistical Forecasting
+- Residual Diagnostics
+
+The project uses real-world datasets to analyze global internet adoption trends and weekly banking loan application behavior.
+
+---
+
+#  Part 1 — Internet Usage Choropleth Map
+
+This section visualizes global internet usage percentages using interactive choropleth maps built with Plotly Express.
+
+---
+
+##  Dataset
+
+Source Dataset:
+- Global internet usage statistics across multiple years
+
+Main Features:
+- Country
+- Country Code
+- Year
+- Individuals using the Internet (% of population)
+
+---
+
+##  Technologies Used
+
+- Python
+- Pandas
+- Plotly Express
+
+---
+
+##  Tasks Performed
+
+###  Data Preparation
+- Downloaded dataset
+- Filtered records for specific years
+- Sorted data chronologically
+
+###  Choropleth Visualization
+Generated interactive world maps using:
+- Country Codes
+- Internet Usage Percentage
+- Hover Information
+- Plasma Color Scale
+
+###  Geographic Analysis
+Analyzed:
+- Western vs Eastern internet penetration
+- Canada & Australia compared to Europe
+- Global internet growth over time
+
+###  Animated Visualization
+Used:
+- animation_frame = "Year"
+
+to visualize internet adoption growth globally over the years.
+
+###  Globe Projection
+Implemented:
+- Natural Earth Projection
+- Asia-only geographic scope
+
+---
+
+##  Key Insights
+
+- Western Europe and North America showed the highest internet penetration.
+- Canada and Australia reached internet usage levels comparable to top European countries.
+- Developing regions experienced rapid internet growth after 2005.
+- The global digital divide is narrowing over time.
+
+---
+
+#  Part 2 — Time Series Analysis
+
+This section analyzes weekly loan applications using statistical time series techniques.
+
+---
+
+##  Dataset
+
+Excel dataset containing:
+- Weekly loan application counts
+- Two years of observations
+
+---
+
+##  Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Statsmodels
+- Matplotlib
+- Seaborn
+
+---
+
+##  Tasks Performed
+
+###  Time Series Visualization
+- Plotted weekly loan applications
+- Observed autocorrelation behavior
+
+###  ACF & PACF Analysis
+Generated:
+- Autocorrelation Function (ACF)
+- Partial Autocorrelation Function (PACF)
+
+###  ARIMA Modeling
+Selected:
+- ARIMA(1,0,1)
+
+for forecasting and autocorrelation modeling.
+
+###  Model Evaluation
+Calculated:
+- Mean Squared Error (MSE)
+- Confidence Intervals
+- P-values
+
+###  Residual Diagnostics
+Generated:
+1. Q-Q Plot
+2. Residual vs Fitted Plot
+3. Residual Histogram
+4. Residual Time Series Plot
+
+---
+
+##  Key Insights
+
+- Loan applications exhibit autocorrelation behavior.
+- ARIMA(1,0,1) effectively modeled the time series.
+- Residual diagnostics confirmed acceptable model performance.
+- Low MSE indicated strong predictive accuracy.
+
+---
+
+## 📂 Project Structure
+
+internet-usage-time-series-analysis/
+│
+├── part1_data_visualization.py
+├── part2_time_series_analysis.py
+├── internet_usage_dataset.csv
+├── Part_2_TSA.xlsx
+├── project_report.pdf
+└── README.md
+
+---
+
+## ▶️ How to Run
+
+### 1. Install Required Libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly statsmodels reportlab openpyxl
