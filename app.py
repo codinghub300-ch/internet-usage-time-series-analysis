@@ -23,7 +23,7 @@ url = "https://raw.githubusercontent.com/TrainingByPackt/Interactive-Data-Visual
 
 df = pd.read_csv(url)
 
-st.write(df.tail(10))
+st.dataframe(df, use_container_width=True, height=500)
 
 internet_2016 = df[df["Year"] == 2016]
 
