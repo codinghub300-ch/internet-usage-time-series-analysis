@@ -1,5 +1,8 @@
 # Internet Usage Choropleth Map & Time Series Analysis 
 
+Live Demo:
+https://internet-usage-time-series-analysis-yevgg4lafo3happisbxxdvc.streamlit.app/
+
 A Python-based data analysis project that combines interactive global data visualization with time series forecasting techniques.
 
 The project is divided into two main parts:
