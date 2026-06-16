@@ -21,7 +21,7 @@ url = "https://raw.githubusercontent.com/TrainingByPackt/Interactive-Data-Visual
 df = pd.read_csv(url)
 
 # st.write(df.columns.tolist())
-st.write(df.head(10))
+st.write(df.tail(10))
 
 internet_2016 = df[df["Year"] == 2016]
 
