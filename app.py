@@ -20,7 +20,7 @@ url = "https://raw.githubusercontent.com/TrainingByPackt/Interactive-Data-Visual
 
 df = pd.read_csv(url)
 
-st.write(df.columns.tolist())
+# st.write(df.columns.tolist())
 st.write(df.head())
 
 internet_2016 = df[df["Year"] == 2016]
@@ -29,7 +29,7 @@ fig = px.choropleth(
     internet_2016,
     locations="Code",
     color="Individuals using the Internet (% of population)",
-    hover_name="Entity",
+    hover_name="Country",
     color_continuous_scale="Viridis"
 )
 
