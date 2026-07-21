@@ -175,3 +175,20 @@ Generated:
 
 ```bash
 pip install pandas numpy matplotlib seaborn plotly statsmodels reportlab openpyxl
+
+```
+
+---
+
+---
+
+<div align="center">
+
+## 💙 Developed by Coding Hub
+
+Time Series Analysis & Data Visualization Project
+
+© 2026 Coding Hub. All Rights Reserved.
+
+</div>
+
